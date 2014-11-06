@@ -1,0 +1,35 @@
+{
+  "name": "default_tdd",
+  "description": "boilerplate para aprender TDD con coffeescript, mocha y should.",
+  "version": "0.10.12",
+  "author": {
+    "name": "Elena Torro",
+    "email": "elenatorrou@gmail.com",
+    "url": "https://github.com/elenatorro"
+  },
+  "contributors":[{
+    "name": "Kiko Beats",
+    "email": "josefrancisco.verdu@gmail.com",
+    "url": "https://github.com/Kikobeats"
+    }],
+  "dependencies": {
+    "coffee-script": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "npm",
+    "dependency",
+    "resolved"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "sh test/test.sh",
+    "prepublish": "npm prune"
+  }
+}
